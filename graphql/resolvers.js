@@ -2,7 +2,10 @@ import { people } from './db';
 
 const resolvers = {
   Query: {
-    people: () => people
+    people: () => people,
+    person: (_, args) => {
+      console.log(args);
+    }
   }
 };
 
