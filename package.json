@@ -7,12 +7,9 @@
   "author": "jh3618-kim",
   "license": "MIT",
   "dependencies": {
-    "add": "^2.0.6",
-    "babel-cli": "^6.26.0",
-    "global": "^4.4.0",
     "graphql-yoga": "^1.18.3"
   },
   "scripts": {
-    "start": "nodemon"
+    "start": "nodemon --exec babel-node index.js"
   }
 }
